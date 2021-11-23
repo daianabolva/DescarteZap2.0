@@ -54,10 +54,8 @@
             <li><ul class="menu nav justify-content-center nav nav-pills fixed-top"></li>
                     <a class="marca navbar-brand" href="#header">DESCARTEZap</a>
                     <li class="nav-item"><a href="#coletaautorizada"><span>Coleta Autorizada</span></a></li>
-                    <li class="nav-item"><a href="#artigos"><span>Artigos</span></a></li>
-                    <li class="nav-item"><a href="#galeria"><span>Galeria</span></a></li>
-                    <li class="nav-item"><a href="#cadastro"><span>Cadastro</span></a></li>
-                    <li class="nav-item"><a href="#login"><span>Login</span></a></li>
+                    <li class="nav-item"><a href=""><span>Doar</span></a></li>
+                    
                     <li>
                         <div class="dropdown menu">
                             <button class="but1 btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -67,9 +65,14 @@
                               <a class="dropdown-item" href="#sobre">Sobre Nós</a>
                               <a class="dropdown-item" href="#sustentabilidade">Sustentabilidade</a>
                               <a class="dropdown-item" href="#univesp">A Univesp</a>
+                              <a class="dropdown-item" href="#artigos">Artigos</a>
+                              <a class="dropdown-item" href="#galeria">Galeria</a>
                             </div>
                           </div>
                     </li>
+
+                   
+
                     <li>
                         <div class="busc menu input-group rounded">
                             <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
@@ -80,6 +83,11 @@
                           </div>
                     </li>
                     
+                    <li class="nav-item"><a href="#login"><span>Login</span></a></li>
+                    <li class="nav-item"><a href="{% url 'account_logout' %}"> <span> <i class="fa fa-sign-in" aria-hidden="true"></i> &nbsp; Sair </span></a></li>
+                    <li class="nav-item"><a href="{% url 'account_login' %}"><span id="username">{{ request.user }} </span></a></li>
+
+
             </ul>
         </div>
               
@@ -277,13 +285,13 @@
         </div>
     </section>
 
-<section>
+<!-- <section>
     <a name="cadastro"></a>
     <div class="caixa">
-        <div class=caixote>
+        <div class=caixote>-->
       <!-- conteudo aqui -->
       <!--form de cadastro -->
-      <div class="register-photo">
+      <!--<div class="register-photo">
         <div class="form-container">
             <div class="image-holder"></div>
             <form method="post">
@@ -296,19 +304,19 @@
                 </div>
                 <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Cadastrar</button></div><a href="#login" class="already">Já tem uma conta? Logue aqui.</a></form>
         </div>
-    </div>
+    </div>-->
       <!-- não apague -->
-        </div>
+        <!--</div>
     </div>
-</section>
-<section>
+</section>-->
+<!-- <section>-->
 
-        <a name="login">
+        <!-- <a name="login">
             <div class="caixa">
                 <div class=caixote>
-                <!-- conteudo aqui -->
+                conteudo aqui -->
                 <!--form de login -->
-                    <div class="form-container">
+                   <!-- <div class="form-container">
                         <div class="image-holder2"></div>
                             <div class="login-clean">
                                 <form method="post">
@@ -319,12 +327,12 @@
                                     <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Log In</button></div><a href="#" class="forgot">Forgot your email or password?</a></form>
                             </div>
                         </div>  
-                    </div>
+                    </div>-->
                 <!-- não apague -->
-                </div>
+                <!--</div>
             </div>
         </a>
-</section>
+        </section>-->
 
 <section>
 

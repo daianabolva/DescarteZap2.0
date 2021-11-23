@@ -491,8 +491,9 @@ text-align: justify;
 
  }
 
+/* registro*/
 
-  .register-photo {
+  /*.register-photo {
 	background:#fff;
 	padding:80px 0;
   }
@@ -580,7 +581,7 @@ text-align: justify;
   /*  formulario de login  */
 
 
-  .login-clean {
+  /*.login-clean {
 	background:#fff;
 	padding:80px 0;
   }
@@ -646,7 +647,7 @@ text-align: justify;
   .login-clean form .forgot:hover, .login-clean form .forgot:active {
 	opacity:1;
 	text-decoration:none;
-  }
+  }*/
   
   /*
  footer com colunas bootstrap 
